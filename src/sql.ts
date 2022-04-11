@@ -225,3 +225,13 @@ export const PLSQL = SQLDialect.define({
   doubleQuotedStrings: true,
   charSetCasts: true
 })
+
+/// [HzSql](https://docs.hazelcast.com/hazelcast/5.1/sql/sql-overview) dialect.
+export const HzSQL = SQLDialect.define({
+  keywords: "select distinct as from inner left right cross join on using where group by having order insert sink into update set values delete drop create or replace mapping if not exists external name type show view index job jobs snapshot for union all case nullif coalesce",
+  builtin: "count sum avg min max cast extract to_timestamp_tz to_epoch_millis csv_file json_flat_file avro_file parquet_file json_query json_value json_array json_object abs cbrt ceil degrees exp floor ln log10 mod power radians rand round sign square sqrt truncate ascii btrim concat_ws initcap length lower ltrim position replace rtrim substring trim upper generate_series generate_stream acos asin atan atan2 cos cot sin tan tumble hop",
+  types: "boolean varchar tinyint smallint interval json integer bigint decimal real double date time timestamp with time zone object",
+  operatorChars: "*/+-%<>!=~",
+  doubleQuotedStrings: true,
+  charSetCasts: true
+})
