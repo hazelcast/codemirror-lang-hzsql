@@ -258,6 +258,7 @@ export const HZSQL_KEYWORDS: HzSQLTokenDef[] = [
   { name: "drop", version: 50 },
   { name: "create", version: 50 },
   { name: "or", version: 50 },
+  { name: "and", version: 50 },
   { name: "replace", version: 50 },
   { name: "mapping", version: 50 },
   { name: "if", version: 50 },
