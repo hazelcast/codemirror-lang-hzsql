@@ -1,6 +1,6 @@
 {
   "name": "@hazelcast/codemirror-lang-hzsql",
-  "version": "0.19.4",
+  "version": "0.2",
   "description": "HzSQL language support for the CodeMirror code editor",
   "scripts": {
     "test": "cm-runtests",
@@ -26,11 +26,11 @@
   "sideEffects": false,
   "license": "MIT",
   "dependencies": {
-    "@codemirror/autocomplete": "^0.19.15",
-    "@codemirror/highlight": "^0.19.8",
-    "@codemirror/language": "^0.19.10",
-    "@codemirror/state": "^0.19.1",
-    "@lezer/lr": "^0.16.0"
+    "@codemirror/autocomplete": "^6.0.0",
+    "@lezer/highlight": "^1.0.0",
+    "@codemirror/language": "^6.0.0",
+    "@codemirror/state": "^6.0.0",
+    "@lezer/lr": "^1.0.0"
   },
   "devDependencies": {
     "@codemirror/buildhelper": "^0.1.5"
