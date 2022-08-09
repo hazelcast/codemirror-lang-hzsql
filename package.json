@@ -1,6 +1,6 @@
 {
   "name": "@hazelcast/codemirror-lang-hzsql",
-  "version": "0.2",
+  "version": "0.2.0",
   "description": "HzSQL language support for the CodeMirror code editor",
   "scripts": {
     "test": "cm-runtests",
