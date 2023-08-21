@@ -281,6 +281,8 @@ export const HZSQL_KEYWORDS: HzSQLTokenDef[] = [
   { name: "case", version: 50 },
   { name: "nullif", version: 50 },
   { name: "coalesce", version: 50 },
+  { name: "limit", version: 54 },
+  { name: "offset", version: 54 },
 ]
 
 export const HZSQL_BUILTINS: HzSQLTokenDef[] = [
